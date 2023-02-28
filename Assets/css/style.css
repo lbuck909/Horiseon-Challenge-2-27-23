@@ -15,7 +15,9 @@ header {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+.float-right-ul {
+  float: right;
+}
 /*changed .header to just header*/
 
 .header h1 {
@@ -154,9 +156,9 @@ img {
 
 .search-engine-optimization,
 .online-reputation-management,
-.social-media-marketing h2 {
+.social-media-marketing .h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 24px !important;
 }
 /*merged search-engine-optimization, online-reputation-management,social-media-marketing on line 135*/
 
@@ -168,6 +170,6 @@ img {
   text-align: center;
 }
 
-.footer h2 {
+.footer {
   font-size: 20px;
 }
